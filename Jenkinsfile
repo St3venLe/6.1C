@@ -17,7 +17,7 @@ pipeline {
             post {
                 always {
                     emailext (
-                        to: "nguyenchuong27042005@gmail.com",
+                        to: "steceblacky@gmail.com",
                         subject: "Jenkins: Unit and Integration Tests - ${currentBuild.currentResult}",
                         body: "Unit and Integration Tests stage has finished with status: ${currentBuild.currentResult}. Please find the attached logs for details.",
                         attachLog: true
@@ -41,7 +41,7 @@ pipeline {
             post {
                 always {
                     emailext (
-                        to: "nguyenchuong27042005@gmail.com",
+                        to: "steceblacky@gmail.com",
                         subject: "Jenkins: Security Scan - ${currentBuild.currentResult}",
                         body: "Security Scan stage has finished with status: ${currentBuild.currentResult}. Please find the attached logs for details.",
                         attachLog: true
