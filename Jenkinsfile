@@ -70,9 +70,9 @@ pipeline {
                 echo 'Tool: Ansible'
             }
         }
-        stage('Test') {
+        stage('Steven') {
             steps {
-                echo 'Test'
+                echo 'Steven Le'
             }
         }
     }
