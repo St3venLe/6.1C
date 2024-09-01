@@ -70,6 +70,11 @@ pipeline {
                 echo 'Tool: Ansible'
             }
         }
+        stage('Test') {
+            steps {
+                echo 'Test'
+            }
+        }
     }
     post {
         success {
